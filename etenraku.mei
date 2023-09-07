@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>越天楽
+                                         <!-- 平調 HK1E笛譜（訳譜） -->
+                </title>
+                <respStmt>
+                    <resp>
+                        Machine-readable transnotation by:
+                        <persName>Shintaro Seki</persName>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <date isodate="2023-04-16" type="encoding-date">2023-04-16</date>
+            </pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl>
+                        東儀俊龍[採譜]，奥好義[採譜]，多久寅[採譜]，弘田龍太郎[採譜]，『越殿樂 平調』，東京芸術大学附属図書館所蔵，1919-07，4ページ，請求記号: HK1/E，資料ID:10403078594, available at https://jmapps.ne.jp/geidailib/files/0564/pdf_files/15993.pdf
+                    </bibl>
+                    <bibl>
+                        多久毎[写]，『雅楽譜』，東京芸術大学附属図書館所蔵，国文学研究資料館古典籍共同研究事業センター撮影，デジタル請求記号: DIG-TKGL-20424-C， DOI: https://doi.org/10.20730/100376839
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc xml:id="encodingdesc-18mfh6">
+            <appInfo xml:id="appinfo-6ig1gi">
+                <application xml:id="application-1n8i4t3" isodate="2023-04-16T17:05:57" version="3.15.0-5abc7c0">
+                    <name xml:id="name-1hd7zqz">Verovio</name>
+                    <p xml:id="p-ik8efn">Transcoded from MusicXML</p>
+                </application>
+                <application xml:id="avdtv1u2" startdate="2023-04-16T17:39:28" version="0.8.7">
+                    <name xml:id="ncvl24x2">mei-friend</name>
+                    <p xml:id="pa8azpn1">First edit by mei-friend 0.8.7, 21 Mar 2023.</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv>
+                <score>
+                    <scoreDef>
+                        <pgFoot>
+                            <rend halign="center" valign="middle" fontstyle="normal" fontweight="normal">越天楽 平調 HK1E笛譜（訳譜）</rend>
+                        </pgFoot>
+                        <staffGrp>
+                            <staffDef n="1" lines="5" ppq="256">
+                                <clef shape="G"  line="2"/>
+                                <keySig sig="0"/>
+                                <meterSig count="4" sym="common" unit="4"/>
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section>
+                        <expansion plist="#line1 #line1 #line2 #line2 #line3 #line3 #line1 #line1 #line2 #line2" />
+                        <section xml:id="line1">
+                            <measure n="1">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="d"  stem.dir="down">                                        
+                                        </note>
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="2">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="4" pname="b"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="4" pname="a"  stem.dir="up"/>
+                                        <note dur.ppq="128" dur="8" oct="4" pname="b"  stem.dir="down"/>
+                                        <rest dur.ppq="128" dur="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="3">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down" type="百"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="d"  stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="4">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                        <rest dur.ppq="256" dur="4"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="5">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="d"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="6">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="256" dur="4" oct="5" pname="f"  stem.dir="down" accid="s"/>
+                                        <beam>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="f"  stem.dir="down" accid.ges="s"/>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="g"  stem.dir="down"/>
+                                        </beam>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="a"  stem.dir="down"/>
+                                        <beam>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="f"  stem.dir="down" accid.ges="s"/>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="g"  stem.dir="down"/>
+                                        </beam>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="7">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down" type="百"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="d"  stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure right="rptend" n="8">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                        <rest dur.ppq="256" dur="4"/>
+                                    </layer>
+                                </staff>
+                                <dir type="二返" staff="1">
+                                二返
+                                </dir>
+                            </measure>
+                        </section>
+
+                        <section xml:id="line2">
+                            <measure left="rptstart" n="9">
+                                <staff n="1" visible="true">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="4" pname="b"  stem.dir="down"/>
+                                        <note dur.ppq="512" dur="2" oct="4" pname="b"  stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="10">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="256" dur="4" oct="4" pname="b"  stem.dir="down"/>
+                                        <beam>
+                                            <note dur.ppq="128" dur="8" oct="4" pname="b"  stem.dir="up"/>
+                                            <note dur.ppq="128" dur="8" oct="4" pname="a"  stem.dir="up"/>
+                                        </beam>
+                                        <note dur.ppq="256" dur="4" oct="4" pname="f"  stem.dir="up" accid="s"/>
+                                        <note dur.ppq="128" dur="8" oct="4" pname="g"  stem.dir="up"/>
+                                        <rest dur.ppq="128" dur="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="11">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="4" pname="b"  stem.dir="down" type="百"/>
+                                        <note dur.ppq="256" dur="4" oct="4" pname="a"  stem.dir="up"/>
+                                        <note dur.ppq="128" dur="8" oct="4" pname="b"  stem.dir="down"/>
+                                        <rest dur.ppq="128" dur="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="12">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="4" pname="b"  stem.dir="down"/>
+                                        <note dur.ppq="128" dur="8" oct="4" pname="a"  stem.dir="up"/>
+                                        <rest dur.ppq="128" dur="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="13">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="f"  stem.dir="down" accid="s"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="g"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="a"  stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="14">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="b"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="a"  stem.dir="down"/>
+                                        <beam>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="f"  stem.dir="down" accid="s"/>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="g"  stem.dir="down"/>
+                                        </beam>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="15">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down" type="百"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="d"  stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure right="rptend" n="16">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                        <rest dur.ppq="256" dur="4"/>
+                                    </layer>
+                                </staff>
+                                <dir type="二返" staff="1">
+                                二返
+                                </dir>
+                            </measure>
+                        </section>
+
+
+
+                        <section xml:id="line3">
+                            <measure left="rptstart" n="17">
+                                <dir type="重頭" staff="1">
+                                重頭
+                                </dir>
+                                <staff n="1" visible="true">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down"/>
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="18">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                        <beam>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="e"  stem.dir="down"/>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="d"  stem.dir="down"/>
+                                        </beam>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="e"  stem.dir="down"/>
+                                        <rest dur.ppq="256" dur="4"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="19">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="f"  stem.dir="down" accid="s" type="百"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="g"  stem.dir="down"/>
+                                        <beam>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="g"  stem.dir="down"/>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="b"  stem.dir="down"/>
+                                        </beam>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="20">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="a"  stem.dir="down"/>
+                                        <note dur.ppq="256" dur="4" oct="5" pname="a"  stem.dir="down"/>
+                                        <rest dur.ppq="256" dur="4"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="21">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="5" pname="d"  stem.dir="down"/>
+                                        <note dur.ppq="512" dur="2" oct="5" pname="e"  stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="22">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="256" dur="4" oct="5" pname="c"  stem.dir="down" accid="s"/>
+                                        <beam>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="c"  stem.dir="down" accid.ges="s"/>
+                                            <note dur.ppq="128" dur="8" oct="5" pname="d"  stem.dir="down"/>
+                                        </beam>
+                                        <note dur.ppq="512" dur="2" oct="4" pname="a"  stem.dir="up"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="23">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="4" pname="a"  stem.dir="up" type="百"/>
+                                        <note dur.ppq="512" dur="2" oct="4" pname="a"  stem.dir="up"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure right="end" n="24">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note dur.ppq="512" dur="2" oct="4" pname="a"  stem.dir="up"/>
+                                        <note dur.ppq="256" dur="4" oct="4" pname="a"  stem.dir="up"/>
+                                        <rest dur.ppq="256" dur="4"/>
+                                    </layer>
+                                </staff>
+                                <dir type="二返" staff="1">
+                                二返
+                                </dir>
+                            </measure>
+                        </section>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
