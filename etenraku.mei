@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -34,15 +34,20 @@
                     <name xml:id="name-1hd7zqz">Verovio</name>
                     <p xml:id="p-ik8efn">Transcoded from MusicXML</p>
                 </application>
-                <application xml:id="avdtv1u2" startdate="2023-04-16T17:39:28" version="0.8.7">
-                    <name xml:id="ncvl24x2">mei-friend</name>
-                    <p xml:id="pa8azpn1">First edit by mei-friend 0.8.7, 21 Mar 2023.</p>
-                </application>
+               <application xml:id="avdtv1u2" startdate="2023-04-16T17:39:28" version="1.0.0" enddate="2023-09-09T10:33:51">
+                  <name xml:id="ncvl24x2">mei-friend</name>
+                  <p xml:id="pa8azpn1">First edit by mei-friend 0.8.7, 21 Mar 2023.</p>
+               </application>
             </appInfo>
         </encodingDesc>
     </meiHead>
     <music>
-        <body>
+       <facsimile xml:id="facsimile-0000002223180759">
+          <surface xml:id="surface-0000004048450931">
+             <graphic xml:id="graphic-0000001228312186" target="Hichiriki_smple.jpg" width="0" height="0"/>
+          </surface>
+       </facsimile>
+       <body>
             <mdiv>
                 <score>
                     <scoreDef>
@@ -60,6 +65,7 @@
                     <section>
                         <expansion plist="#line1 #line1 #line2 #line2 #line3 #line3 #line1 #line1 #line2 #line2" />
                         <section xml:id="line1">
+                           <pb facs="#surface-0000004048450931"/>
                             <measure n="1">
                                 <staff n="1">
                                     <layer n="1">
